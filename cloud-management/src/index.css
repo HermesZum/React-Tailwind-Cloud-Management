@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    overflow: hidden;
+}
+
+h3 {
+    @apply text-lg font-bold;
+}
+
 header {
     @apply w-screen h-20 z-10 bg-zinc-200 fixed drop-shadow-lg;
 }
@@ -14,6 +22,14 @@ button {
     @apply p-2 mr-2 text-white border rounded-md
     bg-indigo-600 border-indigo-600
     md:hover:bg-transparent md:hover:text-indigo-600
+}
+
+section {
+    @apply w-full h-screen;
+}
+
+.icon {
+    @apply w-5 h-6 fill-current text-indigo-600 mr-1;
 }
 
 .navbar {
@@ -50,4 +66,46 @@ button {
 
 .mobileButtons {
     @apply flex flex-col justify-between space-y-4 m-6;
+}
+
+.heroSection {
+    @apply relative flex flex-col justify-between bg-zinc-200;
+}
+
+.heroContainer {
+    @apply grid grid-cols-1 max-w-screen-xl m-auto md:grid-cols-2;
+}
+
+.heroDetails {
+    @apply flex flex-col w-full px-2 py-8 ml-6;
+}
+
+.heroTitle {
+    @apply text-5xl font-bold py-3 md:text-6xl xl:text-8xl;
+}
+
+.heroText {
+    @apply text-xl md:text-2xl xl:text-4xl;
+}
+
+.heroButton {
+    @apply my-4 w-[50%];
+}
+
+.heroImage {
+    @apply w-[70%] mb-24 md:mb-0;
+}
+
+.heroServices {
+    @apply absolute flex flex-col text-center w-[95%] gap-2 p-2 bottom-[5%] mx-3
+    bg-zinc-200 border border-slate-300 rounded-xl shadow-xl
+    md:w-[75%] md:left-1/2 md:p-8 transform md:-translate-x-1/2 xl:w-[50%];
+}
+
+.heroServicesItems {
+    @apply flex flex-wrap gap-2 space-x-2 md:justify-center md:items-center;
+}
+
+.heroServicesItems p {
+    @apply flex text-slate-600;
 }
