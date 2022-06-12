@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    overflow: hidden;
-}
-
 h3 {
     @apply text-lg font-bold;
 }
@@ -25,7 +21,7 @@ button {
 }
 
 section {
-    @apply w-full h-screen;
+    @apply w-full;
 }
 
 .icon {
@@ -69,7 +65,7 @@ section {
 }
 
 .heroSection {
-    @apply relative flex flex-col justify-between bg-zinc-200;
+    @apply relative flex flex-col h-screen justify-between bg-zinc-200;
 }
 
 .heroContainer {
@@ -108,4 +104,40 @@ section {
 
 .heroServicesItems p {
     @apply flex text-slate-600;
+}
+
+.aboutSection {
+    @apply my-[7%];
+}
+
+.aboutContainer {
+    @apply max-w-screen-xl mx-auto;
+}
+
+.aboutBody {
+    @apply text-center;
+}
+
+.aboutBody h2 {
+    @apply text-5xl font-bold;
+}
+
+.aboutBody p {
+    @apply text-2xl py-6 text-gray-500;
+}
+
+.aboutCards {
+    @apply grid md:grid-cols-3 gap-1 px-2 text-center;
+}
+
+.aboutCard {
+    @apply border py-8 rounded-xl shadow-xl;
+}
+
+.aboutCard h4 {
+    @apply text-6xl font-bold text-indigo-600;
+}
+
+.aboutCard p {
+    @apply text-xl text-gray-400 mt-2;
 }
