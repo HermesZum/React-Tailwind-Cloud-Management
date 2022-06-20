@@ -141,3 +141,71 @@ section {
 .aboutCard p {
     @apply text-xl text-gray-400 mt-2;
 }
+
+.supportContainer {
+    @apply w-full h-screen mt-24;
+}
+
+.supportImageCover {
+    @apply absolute w-full h-[700px]  bg-gray-900/90 ;
+}
+
+.supportImage {
+    @apply w-full h-full object-cover mix-blend-overlay;
+}
+
+.supportBodyContainer {
+    @apply relative max-w-screen-xl mx-auto text-white;
+}
+
+.supportBody {
+    @apply px-6 py-12;
+}
+
+.supportBody h2 {
+    @apply text-center text-4xl text-slate-300 uppercase;
+}
+
+.supportBody h3 {
+    @apply py-6 text-center text-2xl;
+}
+
+.supportBody p {
+    @apply text-slate-300 text-lg lg:text-xl;
+}
+
+.supportCards {
+    @apply relative grid gap-x-8 gap-y-16 px-4 py-6 text-black lg:grid-cols-3 sm:pt-20;
+}
+
+.supportCard {
+    @apply bg-white rounded-xl shadow-2xl;
+}
+
+.supportCardBody {
+    @apply p-8;
+}
+
+.supportCardBody h3 {
+    @apply my-6 text-2xl font-bold;
+}
+
+.supportCardBody p {
+    @apply text-lg text-gray-600 lg:text-xl;
+}
+
+.supportCardIcon {
+    @apply w-16 p-4 -mt-16 bg-indigo-600 rounded-lg text-white;
+}
+
+.supportCardLink {
+    @apply pl-8 py-4 bg-slate-200 rounded-b-xl shadow-2xl;
+}
+
+.supportCardLink a {
+    @apply flex items-center font-semibold text-indigo-600;
+}
+
+.supportCardLinkIcon {
+    @apply w-5 ml-2 fill-current;
+}
