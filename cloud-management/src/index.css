@@ -143,7 +143,7 @@ section {
 }
 
 .supportContainer {
-    @apply w-full h-screen mt-24;
+    @apply w-full mt-24;
 }
 
 .supportImageCover {
@@ -208,4 +208,40 @@ section {
 
 .supportCardLinkIcon {
     @apply w-5 ml-2 fill-current;
+}
+
+.allInOneContainer {
+    @apply w-full my-32;
+}
+
+.allInOneHeaderContainer {
+    @apply max-w-screen-xl mx-auto px-2;
+}
+
+.allInOneHeaderContainer h2 {
+    @apply text-4xl font-bold text-center;
+}
+
+.allInOneHeaderContainer p {
+    @apply text-2xl p-8 text-gray-500 text-center;
+}
+
+.allInOneCards {
+    @apply grid gap-4 p-4 sm:grid-cols-2 lg:grid-cols-4;
+}
+
+.allInOneCard {
+    @apply flex rounded-xl shadow-xl p-4;
+}
+
+.allInOneCardIcon {
+    @apply w-7 text-green-600 m-2;
+}
+
+.allInOneCard h3 {
+    @apply font-bold text-lg mt-2;
+}
+
+.allInOneCard p {
+    @apply text-lg text-left p-0 mt-2;
 }
