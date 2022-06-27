@@ -5,7 +5,7 @@ import { CheckIcon } from "@heroicons/react/solid";
 /* A function that returns the Pricing component. */
 const Pricing = () => {
     return (
-        <section className={ 'pricingSection' }>
+        <section name={'pricing'} className={ 'pricingSection' }>
             <div className={ 'pricingAbsolute' }></div>
 
             <div className={ 'pricingContainer' }>

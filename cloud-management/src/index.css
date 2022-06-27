@@ -44,12 +44,12 @@ footer {
     @apply flex;
 }
 
-.navbar a {
-    @apply p-2 font-bold text-base text-gray-600 hover:text-indigo-600 focus:text-indigo-600 active:text-indigo-600;
+.navbarLink {
+    @apply cursor-pointer p-2 font-bold text-base text-gray-600 hover:text-indigo-600 focus:text-indigo-600 active:text-indigo-600;
 }
 
 .brand {
-    @apply text-3xl font-bold sm:text-4xl;
+    @apply cursor-pointer text-3xl font-bold sm:text-4xl;
 }
 
 .menuIcon {

@@ -10,7 +10,7 @@ import cyberBg from '../assets/img/cyber-bg.png';
 
 const Hero = () => {
     return (
-        <section id="hero" className={'heroSection'}>
+        <section name={'home'}  className={'heroSection'}>
             <div className={'heroContainer'}>
                 <div className={'heroDetails'}>
                     <p className={'heroText'}>Unique Sequencing & Production</p>

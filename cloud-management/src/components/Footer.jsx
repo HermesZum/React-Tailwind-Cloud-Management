@@ -17,7 +17,7 @@ import {
  */
 const Footer = () => {
     return (
-        <footer>
+        <footer name={'social'}>
             <div className={ 'footerContainer' }>
 
                 <div className={ 'footerMenu' }>

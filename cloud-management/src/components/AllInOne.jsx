@@ -9,7 +9,7 @@ import { CheckIcon } from "@heroicons/react/outline";
  */
 const AllInOne = () => {
     return (
-        <section className={ 'allInOneContainer' }>
+        <section name={'platforms'} className={ 'allInOneContainer' }>
             <div className={ 'allInOneHeaderContainer' }>
                 <h2>All-in-One Platform</h2>
                 <p>

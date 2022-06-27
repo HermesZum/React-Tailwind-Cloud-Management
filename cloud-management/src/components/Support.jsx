@@ -9,7 +9,7 @@ import support from '../assets/img/support.jpg';
 /* A function that returns the Support component. */
 const Support = () => {
     return (
-        <section className={'supportContainer'}>
+        <section name={'support'} className={'supportContainer'}>
             <div className={'supportImageCover'}>
                 <img className={'supportImage'} src={ support } alt={ 'support' }/>
             </div>
