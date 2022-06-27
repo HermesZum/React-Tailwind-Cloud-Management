@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    overflow-x: hidden !important;
+}
+
 h3 {
     @apply text-lg font-bold;
 }
@@ -22,6 +26,10 @@ button {
 
 section {
     @apply w-full;
+}
+
+footer {
+    @apply w-full mt-24 bg-slate-900 text-gray-300 py-8 px-2;
 }
 
 .icon {
@@ -247,7 +255,7 @@ section {
 }
 
 .pricingSection {
-    @apply w-full text-white my-24;
+    @apply text-white my-24;
 }
 
 .pricingAbsolute {
@@ -316,4 +324,64 @@ section {
 
 .pricingCardIcon {
     @apply w-7 mr-5 text-green-600;
+}
+
+.footerContainer {
+    @apply grid grid-cols-2 max-w-screen-xl mx-auto px-2 py-8 border-b-2 border-gray-600 md:grid-cols-6;
+}
+
+.footerMenu {
+    @apply my-4 ml-6;
+}
+
+.footerMenu h6 {
+    @apply font-bold uppercase text-indigo-400;
+}
+
+.footerMenuCheck {
+    @apply h-6;
+}
+
+.footerMenu a {
+    @apply flex gap-x-2 py-1 md:hover:text-indigo-400;
+}
+
+.footerSubscribe {
+    @apply col-span-2 mt-4 mx-6 md:mx-0;
+}
+
+.footerSubscribe h6 {
+    @apply font-bold uppercase text-indigo-400;
+}
+
+.footerSubscribe p {
+    @apply py-4;
+}
+
+.footerSubscribe p {
+    @apply py-4;
+}
+
+.footerSubscribe form {
+    @apply flex flex-col md:flex-row;
+}
+
+.footerSubscribe input {
+    @apply w-full p-2 mr-4 mb-4 rounded-md;
+}
+
+.footerSubscribe button {
+    @apply w-full py-2 px-0 mb-4 rounded-md md:w-1/2;
+}
+
+.footerCopyright {
+    @apply flex flex-col-reverse max-w-screen-xl justify-center items-center mx-auto px-2 text-center text-gray-500 md:flex-row md:justify-between md:text-xl;
+}
+
+.footerSocial {
+    @apply flex justify-center items-center py-8 gap-x-5 text-4xl;
+}
+
+.footerSocialIcon {
+    @apply md:hover:text-indigo-500 md:hover:scale-[1.2];
 }
